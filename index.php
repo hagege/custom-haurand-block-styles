@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Custom Gutenberg Block Styles
-Plugin URI: https://github.com/Automattic/gutenberg-block-styles/
+Plugin Name: Custom Haurand Block Styles
+Plugin URI: https://haurand.com
 Description: Zusätzliche Block-Styles für den Block Editor
 Author: Hans-Gerd Gerhards
-Author URI: https://haurand.com (Quelle: Automattic)
-Version: 1.3
+Author URI: https://haurand.com (Quelle: Automattic: https://github.com/Automattic/gutenberg-block-styles/)
+Version: 1.4
 
 
 
@@ -205,6 +205,7 @@ array(
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* 3. Block */
 /* 2 Spalten mit Bild oben Text darunter, blauer Hintergrund ohne Rahmen */ 
+/* Die ID der Bilder muss in jedem Fall auf 324 bzw. 325 geändert werden (z. B. im Code-Editor), wenn der Zoomeffekt verwendet werden soll
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 register_block_pattern(
    'haurand-two-card-pattern',
@@ -214,8 +215,8 @@ register_block_pattern(
      'categories'  => array('columns'),
      'content'     => "<!-- wp:columns -->
         <div class=\"wp-block-columns\"><!-- wp:column {\"className\":\"blue-background\"} -->
-        <div class=\"wp-block-column blue-background\"><!-- wp:image {\"id\":324,\"sizeSlug\":\"large\"} -->
-        <figure class=\"wp-block-image size-large\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sonnenuntergang_2.jpeg\" alt=\"\" class=\"wp-image-324\"/></figure>
+        <div class=\"wp-block-column blue-background\"><!-- wp:image {\"id\":324,\"sizeSlug\":\"large\",\"className\":\"zoomeffekt\"} -->
+        <figure class=\"wp-block-image size-large zoomeffekt\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sonnenuntergang_2.jpeg\" alt=\"\" class=\"wp-image-324\"/></figure>
         <!-- /wp:image -->
         
         <!-- wp:paragraph {\"className\":\"blue-background\"} -->
@@ -224,16 +225,15 @@ register_block_pattern(
         <!-- /wp:column -->
         
         <!-- wp:column {\"className\":\"blue-background\"} -->
-        <div class=\"wp-block-column blue-background\"><!-- wp:image {\"id\":325,\"sizeSlug\":\"large\"} -->
-        <figure class=\"wp-block-image size-large\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sauerland_3.jpg\" alt=\"\" class=\"wp-image-325\"/></figure>
+        <div class=\"wp-block-column blue-background\"><!-- wp:image {\"id\":325,\"sizeSlug\":\"large\",\"className\":\"zoomeffekt\"} -->
+        <figure class=\"wp-block-image size-large zoomeffekt\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sauerland_3.jpg\" alt=\"\" class=\"wp-image-325\"/></figure>
         <!-- /wp:image -->
         
         <!-- wp:paragraph {\"className\":\"blue-background\"} -->
         <p class=\"blue-background\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <!-- /wp:paragraph --></div>
         <!-- /wp:column --></div>
-        <!-- /wp:columns -->
-        ",
+        <!-- /wp:columns -->",
    )
  );
 
