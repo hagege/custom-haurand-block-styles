@@ -206,6 +206,7 @@ array(
 /* 3. Block */
 /* 2 Spalten mit Bild oben Text darunter, blauer Hintergrund ohne Rahmen */ 
 /* Die ID der Bilder muss in jedem Fall auf 324 bzw. 325 geändert werden (z. B. im Code-Editor), wenn der Zoomeffekt verwendet werden soll
+/* und die Klasse muss ebenfalls angepasst werden (wp-image-324 oder wp-image-325) 
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 register_block_pattern(
    'haurand-two-card-pattern',
