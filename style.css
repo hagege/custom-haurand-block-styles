@@ -208,6 +208,15 @@ div.blue-background:hover{
 	}
 }
 
+
+
+/* einheitliche Höhe der Bilder */
+/* weißen Rand unten vermeiden */
+figure.wp-block-image.size-large.zoomeffekt {
+    margin-bottom: -6px;
+    height: 350px;
+}
+
 /* Foto bei den dunkelblauen Spalten animieren (Hover) */
 figure.zoomeffekt {
 	margin: 0;
