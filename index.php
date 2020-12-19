@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Custom Haurand Block Styles
+Plugin Name: Custom Haurand Block Styles 2
 Plugin URI: https://haurand.com
 Description: Zusätzliche Block-Styles für den Block Editor
 Author: Hans-Gerd Gerhards
 Author URI: https://haurand.com (Quelle: Automattic: https://github.com/Automattic/gutenberg-block-styles/)
-Version: 1.4
+Version: 1.5
 
 
 
@@ -238,3 +238,40 @@ register_block_pattern(
    )
  );
 
+
+
+ /* ---------------------------------------------------------------------------------------------------------------------------- */
+/* 4. Block */
+/* 2 Spalten mit Bild oben Text darunter, grüner Hintergrund ohne Rahmen mit Ken Burns Effekt*/ 
+/* Die ID der Bilder muss in jedem Fall auf 326 bzw. 327 geändert werden (z. B. im Code-Editor), wenn der Zoomeffekt verwendet werden soll
+/* und die Klasse muss ebenfalls angepasst werden (wp-image-326 oder wp-image-327) 
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+register_block_pattern(
+   'haurand-kb-two-card-pattern',
+     array(
+     'title' => __( '2 Columns with Cards - Ken Burns', 'haurand-kb-two-block-pattern' ),
+     'description' => _x( 'Two Columns with Cards - Ken Burns', 'Two Columns with Cards - Ken Burns', 'haurand-kb-two-block-pattern' ),
+     'categories'  => array('columns'),
+     'content'     => "<!-- wp:columns -->
+        <div class=\"wp-block-columns\"><!-- wp:column {\"className\":\"green-background\"} -->
+        <div class=\"wp-block-column green-background\"><!-- wp:image {\"id\":326,\"sizeSlug\":\"large\",\"className\":\"ken_burns\"} -->
+        <figure class=\"wp-block-image size-large ken_burns\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sonnenuntergang_2.jpeg\" alt=\"\" class=\"wp-image-326\"/></figure>
+        <!-- /wp:image -->
+        
+        <!-- wp:paragraph {\"className\":\"green-background\"} -->
+        <p class=\"green-background\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <!-- /wp:paragraph --></div>
+        <!-- /wp:column -->
+        
+        <!-- wp:column {\"className\":\"green-background\"} -->
+        <div class=\"wp-block-column green-background\"><!-- wp:image {\"id\":327,\"sizeSlug\":\"large\",\"className\":\"ken_burns\"} -->
+        <figure class=\"wp-block-image size-large ken_burns\"><img src=\"https://haurand.com/wp-content/uploads/2020/11/sauerland_3.jpg\" alt=\"\" class=\"wp-image-327\"/></figure>
+        <!-- /wp:image -->
+        
+        <!-- wp:paragraph {\"className\":\"green-background\"} -->
+        <p class=\"green-background\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <!-- /wp:paragraph --></div>
+        <!-- /wp:column --></div>
+        <!-- /wp:columns -->",
+   )
+ );
