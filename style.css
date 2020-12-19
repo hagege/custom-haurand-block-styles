@@ -127,6 +127,83 @@ img.wp-image-2003:hover{
 }
 
 
+/* --------------------------------------------------------------- */
+/* Bilder als Polygon                                              */
+/* Die Summe von border-right (before) und border-left(after)      */ 
+/* muss mindestens der maximalen Breite des Containers entsprechen */
+/* --------------------------------------------------------------- */
+.bild_als_polygon:before {
+    left: 0;
+    border-right: 1770px solid transparent;
+    border-left: 0;
+}
+.bild_als_polygon:before, .bild_als_polygon:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50%;
+    height: 100%;
+    /* border-bottom regelt die Höhe*/
+    border-bottom: 220px solid white;
+    /* border-bottom-color: white; */
+}
+
+
+.bild_als_polygon:after {
+    right: 0;
+    border-left: 1450px solid transparent;
+    border-right: 0;
+}
+/*
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+*/
+
+/* ----------------------------- */
+/* Bilder mit Dreieck nur unten */
+
+.bild_mit_dreieck_unten {
+/*    background: url(http://d.pr/i/eqn9+);
+    height: 200px;*/
+    position: relative;
+}
+
+.bild_mit_dreieck_unten:before, .bild_mit_dreieck_unten:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top:0;
+    display: block;
+    width: 50%;
+    height: 100%;
+    /* Dreieck spitzer bei größeren Werten */   
+    border-bottom: 30px solid white; 
+/*    border-bottom-color: white; */
+}
+
+.bild_mit_dreieck_unten:before {
+    left: 0;
+    /* Dreieck spitzer bei kleineren Werten */
+    border-right: 150px solid transparent; 
+    border-left: 0;
+}
+
+.bild_mit_dreieck_unten:after {
+    right: 0;
+    /* Dreieck spitzer bei kleineren Werten */    
+    border-left: 150px solid transparent;
+    border-right: 0;
+}
+/* ----------------------------- */
+
+
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* 1. Block */
 /* Block pattern: Vorlage mit 3 Kacheln, bestehend aus jeweils einer Überschrift, einem Bild mit kurzer Beschreibung*/
