@@ -132,11 +132,19 @@ img.wp-image-2003:hover{
 /* Die Summe von border-right (before) und border-left(after)      */ 
 /* muss mindestens der maximalen Breite des Containers entsprechen */
 /* --------------------------------------------------------------- */
+
 .bild_als_polygon:before {
-    left: 0;
-    border-right: 1770px solid transparent;
-    border-left: 0;
+		left: 0;
+		border-right: 70vw solid transparent;
+		border-left: 0;
 }
+
+.bild_als_polygon:after {
+		right: 0;
+		border-left: 50vw solid transparent;
+		border-right: 0;
+}
+
 .bild_als_polygon:before, .bild_als_polygon:after {
     box-sizing: border-box;
     content: " ";
@@ -146,25 +154,11 @@ img.wp-image-2003:hover{
     width: 50%;
     height: 100%;
     /* border-bottom regelt die Höhe*/
-    border-bottom: 220px solid white;
+    border-bottom: 280px solid white;
     /* border-bottom-color: white; */
 }
 
 
-.bild_als_polygon:after {
-    right: 0;
-    border-left: 1450px solid transparent;
-    border-right: 0;
-}
-/*
-
-*, *::before, *::after {
-    box-sizing: inherit;
-    -webkit-font-smoothing: antialiased;
-    word-break: break-word;
-    word-wrap: break-word;
-}
-*/
 
 /* ----------------------------- */
 /* Bilder mit Dreieck nur unten */
