@@ -287,65 +287,65 @@ register_block_pattern('haurand-three-card-pattern-v2',
      'description' => _x( 'Three Columns with Cards', 'Three Columns with Cards - version 2', 'haurand-three-block-pattern-v2' ),
      'categories' => array('columns'),
      'content'     => "<!-- wp:columns {\"className\":\"kachel_spalten_v2\"} -->
-        <div class=\"wp-block-columns kachel_spalten_v2\"><!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
-        <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
-        <h2 class=\"has-text-align-center\" id=\"h-kontakt\">Kontakt</h2>
-        <!-- /wp:heading -->
-        
-        <!-- wp:image {\"align\":\"center\",\"id\":2756,\"width\":200,\"height\":200,\"sizeSlug\":\"large\",\"className\":\"is-style-rounded kachel_bild_v2\"} -->
-        <div class=\"wp-block-image is-style-rounded kachel_bild_v2\"><figure class=\"aligncenter size-large is-resized\"><a href=\"https://haurand.com/kontakt-2/\"><img src=\"https://haurand.com/wp-content/uploads/2020/09/pexels-photo-4240498.jpeg\" alt=\"\" class=\"wp-image-2756\" width=\"200\" height=\"200\"/></a></figure></div>
-        <!-- /wp:image -->
-        
-        <!-- wp:paragraph {\"align\":\"center\"} -->
-        <p class=\"has-text-align-center\">Nehmen Sie jetzt Kontakt zu uns auf.</p>
-        <!-- /wp:paragraph -->
-        
-        <!-- wp:buttons {\"align\":\"center\"} -->
-        <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
-        <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/kontakt-2/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
-        <!-- /wp:button --></div>
-        <!-- /wp:buttons --></div>
-        <!-- /wp:column -->
-        
-        <!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
-        <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
-        <h2 class=\"has-text-align-center\" id=\"h-ihre-webseite\">Ihre Webseite</h2>
-        <!-- /wp:heading -->
-        
-        <!-- wp:image {\"align\":\"center\",\"id\":2755,\"width\":200,\"height\":200,\"sizeSlug\":\"large\",\"className\":\"is-style-rounded kachel_bild_v2\"} -->
-        <div class=\"wp-block-image is-style-rounded kachel_bild_v2\"><figure class=\"aligncenter size-large is-resized\"><a href=\"https://haurand.com/ihre-neue-webseite-einfach-passend/\"><img src=\"https://haurand.com/wp-content/uploads/2020/09/ecommerce-2140603_640.jpg\" alt=\"\" class=\"wp-image-2755\" width=\"200\" height=\"200\"/></a></figure></div>
-        <!-- /wp:image -->
-        
-        <!-- wp:paragraph {\"align\":\"center\"} -->
-        <p class=\"has-text-align-center\">Einfach passende Webseiten.</p>
-        <!-- /wp:paragraph -->
-        
-        <!-- wp:buttons {\"align\":\"center\"} -->
-        <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
-        <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/ihre-neue-webseite-einfach-passend/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
-        <!-- /wp:button --></div>
-        <!-- /wp:buttons --></div>
-        <!-- /wp:column -->
-        
-        <!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
-        <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
-        <h2 class=\"has-text-align-center\" id=\"h-zum-blog\">zum Blog</h2>
-        <!-- /wp:heading -->
-        
-        <!-- wp:image {\"align\":\"center\",\"id\":2754,\"width\":200,\"height\":200,\"sizeSlug\":\"large\",\"className\":\"is-style-rounded kachel_bild_v2\"} -->
-        <div class=\"wp-block-image is-style-rounded kachel_bild_v2\"><figure class=\"aligncenter size-large is-resized\"><a href=\"https://haurand.com/category/allgemein/\"><img src=\"https://haurand.com/wp-content/uploads/2020/09/Blog.jpg\" alt=\"\" class=\"wp-image-2754\" width=\"200\" height=\"200\"/></a></figure></div>
-        <!-- /wp:image -->
-        
-        <!-- wp:paragraph {\"align\":\"center\"} -->
-        <p class=\"has-text-align-center\">Tipps zu WordPress und Entwicklung</p>
-        <!-- /wp:paragraph -->
-        
-        <!-- wp:buttons {\"align\":\"center\"} -->
-        <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
-        <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/category/allgemein/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
-        <!-- /wp:button --></div>
-        <!-- /wp:buttons --></div>
-        <!-- /wp:column --></div>
-        <!-- /wp:columns -->",
+      <div class=\"wp-block-columns kachel_spalten_v2\"><!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
+      <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
+      <h2 class=\"has-text-align-center\" id=\"h-kontakt\">Kontakt</h2>
+      <!-- /wp:heading -->
+      
+      <!-- wp:image {\"id\":253,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"zoomeffekt\"} -->
+      <figure class=\"wp-block-image size-large zoomeffekt\"><img src=\"http://leer.test/wp-content/uploads/2020/11/sonnenuntergang_3-1024x768.jpg\" alt=\"\" class=\"kachel_bild_v2\"/></figure>
+      <!-- /wp:image -->
+      
+      <!-- wp:paragraph {\"align\":\"center\"} -->
+      <p class=\"has-text-align-center\">Nehmen Sie jetzt Kontakt zu uns auf.</p>
+      <!-- /wp:paragraph -->
+      
+      <!-- wp:buttons {\"align\":\"center\"} -->
+      <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
+      <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/kontakt-2/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
+      <!-- /wp:button --></div>
+      <!-- /wp:buttons --></div>
+      <!-- /wp:column -->
+      
+      <!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
+      <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
+      <h2 class=\"has-text-align-center\" id=\"h-ihre-webseite\">Ihre Webseite</h2>
+      <!-- /wp:heading -->
+      
+      <!-- wp:image {\"id\":252,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"zoomeffekt\"} -->
+      <figure class=\"wp-block-image size-large zoomeffekt\"><img src=\"http://leer.test/wp-content/uploads/2020/11/sonnenuntergang_2-1024x768.jpeg\" alt=\"\" class=\"kachel_bild_v2\"/></figure>
+      <!-- /wp:image -->
+      
+      <!-- wp:paragraph {\"align\":\"center\"} -->
+      <p class=\"has-text-align-center\">Einfach passende Webseiten.</p>
+      <!-- /wp:paragraph -->
+      
+      <!-- wp:buttons {\"align\":\"center\"} -->
+      <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
+      <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/ihre-neue-webseite-einfach-passend/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
+      <!-- /wp:button --></div>
+      <!-- /wp:buttons --></div>
+      <!-- /wp:column -->
+      
+      <!-- wp:column {\"className\":\"kachel_spalte_v2\"} -->
+      <div class=\"wp-block-column kachel_spalte_v2\"><!-- wp:heading {\"textAlign\":\"center\"} -->
+      <h2 class=\"has-text-align-center\" id=\"h-zum-blog\">zum Blog</h2>
+      <!-- /wp:heading -->
+      
+      <!-- wp:image {\"id\":249,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"zoomeffekt\"} -->
+      <figure class=\"wp-block-image size-large zoomeffekt\"><img src=\"http://leer.test/wp-content/uploads/2020/11/sauerland_2-1024x768.jpg\" alt=\"\" class=\"kachel_bild_v2\"/></figure>
+      <!-- /wp:image -->
+      
+      <!-- wp:paragraph {\"align\":\"center\"} -->
+      <p class=\"has-text-align-center\">Tipps zu WordPress und Entwicklung</p>
+      <!-- /wp:paragraph -->
+      
+      <!-- wp:buttons {\"align\":\"center\"} -->
+      <div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"borderRadius\":0,\"style\":{\"color\":{\"background\":\"#f60012\"}}} -->
+      <div class=\"wp-block-button\"><a class=\"wp-block-button__link has-background no-border-radius\" href=\"https://haurand.com/category/allgemein/\" style=\"background-color:#f60012\">Mehr Infos</a></div>
+      <!-- /wp:button --></div>
+      <!-- /wp:buttons --></div>
+      <!-- /wp:column --></div>
+      <!-- /wp:columns -->",
    )
  ); 
