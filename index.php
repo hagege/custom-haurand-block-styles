@@ -279,7 +279,7 @@ register_block_pattern(
  
   /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* 5. Block - ähnlich wie 2. Block, aber flexibler*/
-/* 3 Spalten mit runden Bildern */ 
+/* 3 Spalten mit rechteckigen  Bildern und zoom-Effekt */ 
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 register_block_pattern('haurand-three-card-pattern-v2',
      array(
